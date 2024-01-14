@@ -1,18 +1,19 @@
-## Getting Started
+# Exercícios de Java - Curso da Udemy
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém os exercícios práticos realizados durante o curso de Java na Udemy.
 
-## Folder Structure
+## Pré-requisitos
 
-The workspace contains two folders by default, where:
+Certifique-se de ter o [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) instalado em sua máquina.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Configuração do Ambiente
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Instale o [Visual Studio Code (VSCode)](https://code.visualstudio.com/).
+2. Instale a extensão "Language Support for Java" no VSCode para uma experiência Java aprimorada.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Execução dos Exercícios
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Abra o projeto no VSCode.
+2. Navegue até a pasta do exercício desejado.
+3. Abra o arquivo principal em um editor Java.
+4. Execute o programa e observe os resultados.
