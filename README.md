@@ -14,6 +14,6 @@ Certifique-se de ter o [Java Development Kit (JDK)](https://www.oracle.com/java/
 ## Execução dos Exercícios
 
 1. Abra o projeto no VSCode.
-2. Navegue até a pasta do exercício desejado.
+2. Navegue até a pasta 
 3. Abra o arquivo principal em um editor Java.
 4. Execute o programa e observe os resultados.
