@@ -6,7 +6,8 @@ public class ProgramExercicioDatas {
     public static void main(String[] args) {
 
         LocalDate data = LocalDate.of(1992, 5, 16);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR"));
+        Locale locale = new Locale.Builder().setLanguage("pt").setRegion("BR").build();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd 'de' MMMM 'de' yyyy", locale);        
 
         System.out.println("Data: " + data.format(formatter));
         System.out.println("Adicionado 4 dias a data: " + data.plusDays(4).format(formatter));

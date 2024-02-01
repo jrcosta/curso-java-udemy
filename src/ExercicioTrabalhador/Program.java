@@ -21,6 +21,9 @@ public class Program {
         String nomeDepartamento = sc.nextLine();
 
         System.out.println("Entre com os dados do trabalhador:");
+        System.out.print("Data (DD/MM/YYYY): ");
+        String dataString = sc.next();
+        Date data = new SimpleDateFormat("dd/MM/yyyy").parse(dataString);
         System.out.print("Nome: ");
         String nomeTrabalhador = sc.nextLine();
         System.out.print("Nível: ");
@@ -29,10 +32,6 @@ public class Program {
         double salarioBase = sc.nextDouble();
 
         Trabalhador trabalhador = new Trabalhador(nomeTrabalhador, NivelTrabalhador.valueOf(nivelTrabalhador), salarioBase, new Departamento(nomeDepartamento));
-
-        System.out.print("Data (DD/MM/YYYY): ");
-        String dataString = sc.next();
-        Date data = new SimpleDateFormat("dd/MM/yyyy").parse(dataString);
 
         System.out.print("Quantos contratos para esse trabalhador? ");
         int n = sc.nextInt();
